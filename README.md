@@ -9,9 +9,9 @@ This android app project was created so as a playground for testing the CAT S60 
 
 ## Capturing Image Data
 
-This took me a while to figure out, when you configure the `FrameProcessor` to process a set of images it will give you those sets of images per second. To explain it better if you configure it to capture `VisibleAlignedRGBA8888Image` and `ThermalRadiometricKelvinImage` then the `FrameProcessor` will be processing those 2 images types at the same time. So your `onFrameProcessed()` method will receive a `RenderedImage` of type `VisibleAlignedRGBA8888Image` and a `RenderedImage` of type `ThermalRadiometricKelvinImage` for the same instance of time.
+This took me a while to figure out, when you configure the `FrameProcessor` to process a set of images it will give you those sets of images per second. To explain it better if you configure it to capture `VisibleAlignedRGBA8888Image` and `ThermalRadiometricKelvinImage` then the `FrameProcessor` will be processing those 2 image types at the same time. So your `onFrameProcessed()` method will receive a `RenderedImage` of type `VisibleAlignedRGBA8888Image` and a `RenderedImage` of type `ThermalRadiometricKelvinImage` for the same instance of time.
 
-This app can is set to capture 4 image types
+This app is set to capture 4 image types
 
 * VisibleAlignedRGBA8888Image
 * BlendedMSXRGBA8888Image
