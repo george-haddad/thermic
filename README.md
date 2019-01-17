@@ -26,4 +26,4 @@ It would be kick ass if other FLIR SDK developers would want to contribute anyth
 
 # License
 
-This has not really crossed my mind, but BSD 3 Clause license seems cool. For now it's public domain 
+BSD 3 Clause license seems cool
